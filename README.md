@@ -16,12 +16,10 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 
 | # | Project | Methods Used | Status |
 |---|---------|-------------|--------|
-| 01 | [Central Limit Theorem](./01_Central_Limit_Theorem/) | Sampling distributions, CLT simulation | ✅ Complete |
-| 02 | [EDA – White Polymer](./02_EDA_White_Polymer/) | Distribution analysis, Box plots, Correlation | ✅ Complete |
-| 03 | [EDA – Scrapped Parts](./03_EDA_Scrapped_Parts/) | Oneway ANOVA, Contingency tables, Mosaic plots | ✅ Complete |
-| 04 | [Mobile Cellular Analysis](./04_Mobile_Cellular_Analysis/) | Scatterplots, Regression, Run charts | ✅ Complete |
-| 05 | [Measles Vaccine Project](./05_Measles_Vaccine_Project/) | Time series, EDA, Public health data | ✅ Complete |
-| 06 | [DOE – Design of Experiments](./06_DOE_Coming_Soon/) | Full factorial, Interactions, Response surface | 🔄 In Progress |
+
+| 01 | [Measles Vaccine Project](./05_Measles_Vaccine_Project/) | Time series, EDA, Public health data | ✅ Complete |
+
+| 02 | [Airline Flight Delay Analysis](./06_Airline_Flight_Delay_Project/) | EDA, Heat map, Categorical analysis | ✅ Complete |
 
 ---
 
