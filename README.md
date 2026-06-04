@@ -31,6 +31,11 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 - **Domain:** Semiconductor Process Engineering, Manufacturing Quality
 
 ---
+## Course Attribution
+Projects in this portfolio were completed as part of 
+the [JMP Visual Six Sigma Online Statistics Course]
+(https://www.jmp.com/en/online-statistics-course).
+All analyses, interpretations, and write-ups are my own.
 
 ## 📬 Contact
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com)
