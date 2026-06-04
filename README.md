@@ -6,7 +6,7 @@
 ---
 
 ## 👤 About Me
-Process/Manufacturing Engineer with a background in semiconductor process engineering at Intel. Currently completing the **JMP Visual Six Sigma** certification, applying statistical tools to real-world manufacturing and quality problems.
+Process/Manufacturing Engineer with a background in semiconductor process engineering. Currently completing the **JMP Visual Six Sigma** certification, applying statistical tools to real-world manufacturing and quality problems.
 
 **Core competencies:** EDA · SPC · DOE · DMAIC · Process Capability · Regression · Hypothesis Testing
 
