@@ -76,3 +76,9 @@ The five EDA analyses conclusively show that:
 - **Coverage:** All 50 US states, 1928–2011
 - **Key Variables:** Yearly Incidence, State Code, 
 Year, Decade, Vaccine B4/After
+
+## Course Attribution
+Projects in this portfolio were completed as part of 
+the [JMP Visual Six Sigma Online Statistics Course]
+(https://www.jmp.com/en/online-statistics-course).
+All analyses, interpretations, and write-ups are my own.
