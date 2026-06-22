@@ -32,7 +32,7 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 - **Frameworks:** DMAIC, Six Sigma, PDSA, A3, 8D
 - **Domain:** Semiconductor Process Engineering, Manufacturing Quality
 
-- ## 📜 Certifications
+## 📜 Certifications
 
 | Credential | Issuer | Verified |
 |------------|--------|---------|
