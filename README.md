@@ -21,6 +21,8 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 
 | 02 | [Airline Flight Delay Analysis](./06_Airline_Flight_Delay_Project/) | EDA, Heat map, Categorical analysis | ✅ Complete |
 
+| 03 | [White Polymer EDA & Script Automation](./06_Airline_Flight_Delay_Project/) | EDA, Distribution analysis, JMP Script automation, Dashboard creation | ✅ Complete |
+
 ---
 
 ## 🛠️ Tools & Skills
@@ -29,6 +31,12 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 - **Statistical Methods:** EDA, SPC, DOE, Regression, ANOVA, Process Capability (Cpk)
 - **Frameworks:** DMAIC, Six Sigma, PDSA, A3, 8D
 - **Domain:** Semiconductor Process Engineering, Manufacturing Quality
+
+- ## 📜 Certifications
+
+| Credential | Issuer | Verified |
+|------------|--------|---------|
+| Statistical Thinking and Problem Solving | JMP Learn | [Credly Badge](https://www.credly.com/badges/d87d1610-d3bf-4ad1-8530-4dc4a0b025bb) |
 
 ---
 ## References & Course Attribution
