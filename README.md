@@ -23,6 +23,8 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 
 | 03 | [White Polymer EDA & Script Automation](./06_Airline_Flight_Delay_Project/) | EDA, Distribution analysis, JMP Script automation, Dashboard creation | ✅ Complete |
 
+| 04 | [Data Quality, Variable Coding & Data Preparation](./04_Data_Quality_Variable_Coding/) | Data auditing, Missing data analysis, Recode, Stack, Concatenate, Join, Formula Editor | ✅ Complete |
+
 ---
 
 ## 🛠️ Tools & Skills
@@ -37,6 +39,7 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 | Credential | Issuer | Verified |
 |------------|--------|---------|
 | Statistical Thinking and Problem Solving | JMP Learn | [Credly Badge](https://www.credly.com/badges/d87d1610-d3bf-4ad1-8530-4dc4a0b025bb) |
+| Exploratory Data Analysis | SAS | [Credly Badge](https://www.credly.com/go/G8NgTnzNjSfbWz2kwfq8HQ) |
 
 ---
 ## References & Course Attribution
