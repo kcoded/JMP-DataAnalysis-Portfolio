@@ -33,9 +33,9 @@ Process/Manufacturing Engineer with a background in semiconductor process engine
 ## 📜 Certifications
 | Credential | Issuer | Verified |
 |------------|--------|---------|
-| Statistical Thinking and Problem Solving | JMP Learn | [Credly Badge](https://www.credly.com/badges/d87d1610-d3bf-4ad1-8530-4dc4a0b025bb) |
-| Exploratory Data Analysis | SAS | [Credly Badge](https://www.credly.com/go/G8NgTnzNjSfbWz2kwfq8HQ) |
-| Design of Experiments | JMP Learn | [Credly Badge](https://www.credly.com/badges/a97fc9cb-7f6d-4bb8-b4b7-8096b859c840/public_url) |
+| Statistical Thinking and Problem Solving | JMP Learn by SAS Institute | [Credly Badge](https://www.credly.com/badges/d87d1610-d3bf-4ad1-8530-4dc4a0b025bb) |
+| Exploratory Data Analysis | JMP Learn by SAS Institute | [Credly Badge](https://www.credly.com/go/G8NgTnzNjSfbWz2kwfq8HQ) |
+| Design of Experiments | JMP Learn by SAS Institute | [Credly Badge](https://www.credly.com/badges/a97fc9cb-7f6d-4bb8-b4b7-8096b859c840/public_url) |
 
 ---
 
