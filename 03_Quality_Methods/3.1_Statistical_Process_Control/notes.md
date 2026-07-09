@@ -36,24 +36,24 @@ File names below match exactly what is saved in the repository. File systems req
 
 | File | Description |
 |---|---|
-| `03_xf_imr_chart.png` | Individual and moving range chart for the Xf variable |
-| `03_viscosity_imr_chart.png` | Individual and moving range chart for viscosity |
-| `03_ambienttemp_imr_chart.png` | Individual and moving range chart for ambient temperature |
-| `03_mfi_imr_chart_phase.png` | Individual and moving range chart for melt flow index, phased view |
-| `03_distribution_ci_sa_xf.png` | Distribution histograms and summary statistics for three process variables |
-| `03_ci_normal_quantile.png` | Normal quantile plot for the CI variable |
-| `03_sa_normal_quantile.png` | Normal quantile plot for the SA variable |
-| `03_xf_normal_quantile.png` | Normal quantile plot for the Xf variable |
-| `03_sa_imr_chart_tests.png` | Individual and moving range chart with special cause test flags for SA |
-| `03_ci_imr_chart_tests.png` | Individual and moving range chart with special cause test flags for CI |
-| `03_thickness_xbar_r_chart.png` | Average and range chart for part thickness |
-| `03_thickness_xbar_s_chart.png` | Average and standard deviation chart for part thickness |
-| `03_diameter_xbar_r_test1.png` | Average and range chart for diameter, flagging a Test 1 violation |
-| `03_diameter_xbar_r_test5.png` | Average and range chart for diameter, flagging a Test 5 violation |
-| `03_diameter_xbar_s_chart.png` | Average and standard deviation chart for diameter |
-| `03_diameter_xbar_s_test1.png` | Average and standard deviation chart for diameter, confirming a Test 1 violation |
-| `03_diameter_xbar_s_test5.png` | Average and standard deviation chart for diameter, confirming a Test 5 violation |
-| `03_thickness_phased_xbar_r.png` | Phased average and range chart for thickness across before, after, and sustained periods |
-| `03_fillweight_3way_chart.png` | Three way control chart for fill weight |
-| `03_mfi_phased_by_shift.png` | Phased individual and moving range chart for melt flow index by shift |
-| `03_mfi_phased_by_quarry.png` | Phased individual and moving range chart for melt flow index by production site |
+| <img width="1023" height="515" alt="03_xf_imr_chart" src="https://github.com/user-attachments/assets/51e01c98-e0b4-4ebd-80bd-716781b475c6" /> | Individual and moving range chart for the Xf variable |
+| <img width="1022" height="502" alt="03_viscosity_imr_chart" src="https://github.com/user-attachments/assets/a93ec703-d5d7-41bd-b1f7-9e24c9fd1924" /> | Individual and moving range chart for viscosity |
+| <img width="1012" height="500" alt="03_ambienttemp_imr_chart" src="https://github.com/user-attachments/assets/7ca89525-9d4a-4145-8d88-87b60d25dec7" /> | Individual and moving range chart for ambient temperature |
+| <img width="988" height="497" alt="03_mfi_imr_chart_phase" src="https://github.com/user-attachments/assets/81086cfc-33fd-49e2-b18d-9ceb697447cd" /> | Individual and moving range chart for melt flow index, phased view |
+| <img width="742" height="768" alt="03_distribution_ci_sa_xf" src="https://github.com/user-attachments/assets/47308bda-35d0-48c7-9b43-5ee38d860f39" /> | Distribution histograms and summary statistics for three process variables |
+| <img width="823" height="513" alt="03_ci_normal_quantile" src="https://github.com/user-attachments/assets/24423079-65db-4ad8-8291-798fd08f6f53" /> | Normal quantile plot for the CI variable |
+| <img width="842" height="520" alt="03_sa_normal_quantile" src="https://github.com/user-attachments/assets/2c660edd-fd6d-4eca-9c89-ed13827a5971" /> | Normal quantile plot for the SA variable |
+| <img width="817" height="518" alt="03_xf_normal_quantile" src="https://github.com/user-attachments/assets/337836ac-774e-45d6-b14e-18f06d5c0643" /> | Normal quantile plot for the Xf variable |
+| <img width="1012" height="498" alt="03_sa_imr_chart_tests" src="https://github.com/user-attachments/assets/b278cf33-975d-470c-8ebe-16f039dc4458" /> | Individual and moving range chart with special cause test flags for SA |
+| <img width="1008" height="486" alt="03_ci_imr_chart_tests" src="https://github.com/user-attachments/assets/5ebf2bde-a9be-492b-bdba-bc8099db62f3" /> | Individual and moving range chart with special cause test flags for CI |
+| <img width="790" height="415" alt="03_thickness_xbar_r_chart" src="https://github.com/user-attachments/assets/d7644ea9-eb6d-4ec9-970c-267ec4428b9f" /> | Average and range chart for part thickness |
+| <img width="1062" height="537" alt="03_thickness_xbar_s_chart" src="https://github.com/user-attachments/assets/5925b78a-b0e2-49f6-9132-c01aaf81a3a5" /> | Average and standard deviation chart for part thickness |
+| <img width="936" height="533" alt="03_diameter_xbar_r_test1" src="https://github.com/user-attachments/assets/b5c31f45-b248-4659-93a6-d438d47ce107" /> | Average and range chart for diameter, flagging a Test 1 violation |
+| <img width="935" height="525" alt="03_diameter_xbar_r_test5" src="https://github.com/user-attachments/assets/97548c85-5152-4c2e-ad8c-47da90171db0" /> | Average and range chart for diameter, flagging a Test 5 violation |
+| <img width="1061" height="535" alt="03_diameter_xbar_s_chart" src="https://github.com/user-attachments/assets/35c53bc6-3a1c-4052-b16b-b8568eaa973c" /> | Average and standard deviation chart for diameter |
+| <img width="1056" height="530" alt="03_diameter_xbar_s_test1" src="https://github.com/user-attachments/assets/2cda4fef-c1ae-4b88-b131-d5242c848572" /> | Average and standard deviation chart for diameter, confirming a Test 1 violation |
+| <img width="1056" height="528" alt="03_diameter_xbar_s_test5" src="https://github.com/user-attachments/assets/bb97cb1c-560c-4568-b233-4fb127571ecf" /> | Average and standard deviation chart for diameter, confirming a Test 5 violation |
+| <img width="1032" height="537" alt="03_thickness_phased_xbar_r" src="https://github.com/user-attachments/assets/7f88c6f3-ac04-4f0f-91ff-f4c2ac3be312" /> | Phased average and range chart for thickness across before, after, and sustained periods |
+| <img width="1068" height="528" alt="03_fillweight_3way_chart" src="https://github.com/user-attachments/assets/06ab378f-e8a2-43cd-bd1c-fae45c780cc6" /> | Three way control chart for fill weight |
+| <img width="1048" height="533" alt="03_mfi_phased_by_shift" src="https://github.com/user-attachments/assets/34c46865-3e51-47dc-b0fb-4af9f6a3c0df" /> | Phased individual and moving range chart for melt flow index by shift |
+| <img width="1077" height="536" alt="03_mfi_phased_by_quarry" src="https://github.com/user-attachments/assets/58a18904-c393-4104-bd4d-7f73a10e8438" /> | Phased individual and moving range chart for melt flow index by production site |
