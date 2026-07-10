@@ -44,18 +44,18 @@ File names below match exactly what is saved in the repository. File systems req
 
 | File | Description |
 |---|---|
-| `03_measurement_system_process_map.png` | Input, process, and output map for a measurement system |
-| `03_measurement_variation_cause_effect.png` | Cause and effect diagram for sources of measurement variation |
-| `03_gauge_study_design_setup.png` | Gauge study design setup for a two instrument, three inspector, ten part study |
-| `03_gauge_study_worksheet.png` | Generated worksheet from the gauge study design |
-| `03_area_msa_combined_data.png` | Combined measurement data table from the area measurement exercise |
-| `03_area_msa_variability_chart.png` | Variability chart for the area measurement exercise |
-| `03_area_msa_group_means.png` | Variability chart with group means displayed, showing reproducibility differences |
-| `03_area_msa_connect_cell_means.png` | Variability chart with connected cell means, showing an interaction pattern |
-| `03_area_msa_variability_by_inspector.png` | Variability chart broken out by inspector, supporting the bias study |
-| `03_area_msa_variance_components.png` | Variance components table for the area measurement exercise |
-| `03_area_msa_bias_report.png` | Measurement bias report, including overall bias and bias by standard value |
-| `03_mfi_emp_average_stddev_charts.png` | Average and standard deviation charts for the melt flow index measurement study |
-| `03_mfi_emp_avg_range_charts.png` | Average and range charts for the melt flow index measurement study |
-| `03_mfi_emp_parallelism_plots.png` | Parallelism plots for technician and instrument against batch |
-| `03_mfi_emp_variance_components_gaugerr.png` | Variance components and evaluating the measurement process results for melt flow index |
+| <img width="620" height="400" alt="03_measurement_system_process_map" src="https://github.com/user-attachments/assets/fd9406d3-05dd-4819-8709-dd04993ef5fa" /> | Input, process, and output map for a measurement system |
+| <img width="787" height="317" alt="03_measurement_variation_cause_effect" src="https://github.com/user-attachments/assets/95214eec-be70-44d7-adc0-f6545b278e49" /> | Cause and effect diagram for sources of measurement variation |
+| <img width="532" height="437" alt="03_gauge_study_design_setup" src="https://github.com/user-attachments/assets/ba79b174-78fb-409e-9edf-be5cd2dfa072" /> | Gauge study design setup for a two instrument, three inspector, ten part study |
+| <img width="988" height="727" alt="03_gauge_study_worksheet" src="https://github.com/user-attachments/assets/9f6e579c-ecd0-4e4e-a068-02b6982c0616" /> | Generated worksheet from the gauge study design |
+| <img width="933" height="852" alt="03_area_msa_combined_data" src="https://github.com/user-attachments/assets/30e8cd18-3ffd-494a-b11a-9e6b674f9073" /> | Combined measurement data table from the area measurement exercise |
+| <img width="1023" height="638" alt="03_area_msa_variability_chart" src="https://github.com/user-attachments/assets/d36e02af-3ea7-4be4-9ba0-79405caa5118" /> | Variability chart for the area measurement exercise |
+| <img width="1021" height="637" alt="03_area_msa_group_means" src="https://github.com/user-attachments/assets/de6c30ce-eb03-4b4e-b05e-dac5a77a677f" /> | Variability chart with group means displayed, showing reproducibility differences |
+| <img width="1020" height="640" alt="03_area_msa_connect_cell_means" src="https://github.com/user-attachments/assets/a17e0130-1518-4840-8d8c-f0b21a6f45d6" /> | Variability chart with connected cell means, showing an interaction pattern |
+| <img width="1023" height="636" alt="03_area_msa_variability_by_inspector" src="https://github.com/user-attachments/assets/798dc05a-4a4b-4545-af1f-a08157a7c652" /> | Variability chart broken out by inspector, supporting the bias study |
+| <img width="1107" height="928" alt="03_area_msa_variance_components" src="https://github.com/user-attachments/assets/d1567621-b077-447b-9d96-ce0c51deb8e6" /> | Variance components table for the area measurement exercise |
+| <img width="632" height="682" alt="03_area_msa_bias_report" src="https://github.com/user-attachments/assets/59f8a002-4749-4e18-992c-180e28688c5e" /> | Measurement bias report, including overall bias and bias by standard value |
+| <img width="987" height="832" alt="03_mfi_emp_average_stddev_charts" src="https://github.com/user-attachments/assets/08a043bf-2df5-4188-8462-6d97a05da237" /> | Average and standard deviation charts for the melt flow index measurement study |
+| <img width="968" height="833" alt="03_mfi_emp_avg_range_charts" src="https://github.com/user-attachments/assets/49ccf18b-b412-4379-a124-a5c5698f988d" /> | Average and range charts for the melt flow index measurement study |
+| <img width="563" height="688" alt="03_mfi_emp_parallelism_plots" src="https://github.com/user-attachments/assets/f32b7825-a25f-464d-aadc-8536cdcf6248" /> | Parallelism plots for technician and instrument against batch |
+| <img width="503" height="436" alt="03_mfi_emp_variance_components_gaugerr" src="https://github.com/user-attachments/assets/af91e024-8213-4e26-b9f6-2b746c25fc50" /> | Variance components and evaluating the measurement process results for melt flow index |
