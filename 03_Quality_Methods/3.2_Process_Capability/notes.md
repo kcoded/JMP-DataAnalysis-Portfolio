@@ -46,19 +46,64 @@ File names below match exactly what is saved in the repository. File systems req
 
 | File | Description |
 |---|---|
-| `03_thickness_distribution_capability.png` | Distribution and summary statistics for thickness prior to capability analysis |
-| `03_thickness_imr_chart_capability.png` | Individual and moving range chart confirming stability for thickness |
-| `03_thickness_capability_report.png` | Full capability report for thickness, confirming manual calculations |
-| `03_temp_imr_chart.png` | Individual and moving range chart for temperature |
-| `03_temp_normal_quantile.png` | Normal quantile plot confirming approximate normality for temperature |
-| `03_temp_capability_report.png` | Full capability report for temperature, including performance indices and nonconformance rate |
-| `03_thickness_xbar_r_before.png` | Average and range chart for thickness before the process improvement |
-| `03_thickness_xbar_r_after.png` | Average and range chart for thickness after the process improvement |
-| `03_thickness_capability_before.png` | Capability report for thickness before the process improvement |
-| `03_thickness_capability_after.png` | Capability report for thickness after the process improvement |
-| `03_partflatness_distribution.png` | Distribution and summary statistics for part flatness, showing a right skewed pattern |
-| `03_partflatness_weibull_fit.png` | Distribution fit comparison identifying the Weibull distribution as the best fit |
-| `03_partflatness_capability_normal_incorrect.png` | Capability report calculated incorrectly using normal theory on nonnormal data, preserved as a learning artifact |
-| `03_partflatness_weibull_capability.png` | Corrected capability report calculated using the fitted Weibull distribution |
-| `03_partflatness_normal_vs_weibull_note.md` | Written explanation comparing the incorrect and corrected capability approaches |
-| `03_poor_performance_decision_tree.png` | Decision tree for diagnosing poor process performance across stability, centering, and variability |
+| <img width="775" height="553" alt="03_thickness_distribution_capability" src="https://github.com/user-attachments/assets/5533dbfd-5f6d-43ae-9707-05e4e1490a2f" /> | Distribution and summary statistics for thickness prior to capability analysis |
+| <img width="992" height="495" alt="03_thickness_imr_chart_capability" src="https://github.com/user-attachments/assets/dd822019-0b56-4cd0-8f92-9618b35509a6" /> | Individual and moving range chart confirming stability for thickness |
+| <img width="1471" height="737" alt="03_thickness_capability_report" src="https://github.com/user-attachments/assets/46b4a7c8-c74c-48f8-a571-bdba6601049f" /> | Full capability report for thickness, confirming manual calculations |
+| <img width="1016" height="532" alt="03_temp_imr_chart" src="https://github.com/user-attachments/assets/75c405ce-7ee3-4cbd-87a4-bad5bb2df53d" /> | Individual and moving range chart for temperature |
+| <img width="795" height="552" alt="03_temp_normal_quantile" src="https://github.com/user-attachments/assets/0e577c1d-ec59-4570-a54f-41bc88286ef5" /> | Normal quantile plot confirming approximate normality for temperature |
+| <img width="1467" height="681" alt="03_temp_capability_report" src="https://github.com/user-attachments/assets/11545167-6c5c-4395-a1f2-2130e67da5d5" /> | Full capability report for temperature, including performance indices and nonconformance rate |
+| <img width="947" height="532" alt="03_thickness_xbar_r_before" src="https://github.com/user-attachments/assets/a7813584-b202-441e-a10d-1162a5f58868" /> | Average and range chart for thickness before the process improvement |
+| <img width="942" height="532" alt="03_thickness_xbar_r_after" src="https://github.com/user-attachments/assets/a8f59a34-8f1e-4c8a-91f8-bcb5f8d48a5e" /> | Average and range chart for thickness after the process improvement |
+| <img width="1275" height="698" alt="03_thickness_capability_before" src="https://github.com/user-attachments/assets/6331cdf8-8e7a-4b36-8416-42cc469a43e8" /> | Capability report for thickness before the process improvement |
+| <img width="1277" height="695" alt="03_thickness_capability_after" src="https://github.com/user-attachments/assets/831fc8cd-09a0-41de-b1c2-6adb9a825d5d" /> | Capability report for thickness after the process improvement |
+| <img width="722" height="282" alt="03_partflatness_distribution" src="https://github.com/user-attachments/assets/fd4b2648-b030-462a-9f99-b1c95a3a6f2c" /> | Distribution and summary statistics for part flatness, showing a right skewed pattern |
+| <img width="650" height="792" alt="03_partflatness_weibull_fit" src="https://github.com/user-attachments/assets/76608eca-c94b-4113-ae3c-fed8874b3dac" /> | Distribution fit comparison identifying the Weibull distribution as the best fit |
+| <img width="1152" height="729" alt="`03_partflatness_capability_normal_incorrect" src="https://github.com/user-attachments/assets/0aacf8fb-24f4-4c1a-95a9-24d4f41e52a0" />` | Capability report calculated incorrectly using normal theory on nonnormal data, preserved as a learning artifact |
+| <img width="725" height="493" alt="03_partflatness_weibull_capability" src="https://github.com/user-attachments/assets/e654e270-3388-4bbd-a168-c59d3d85c230" /> | Corrected Capability report calculated using the fitted Weibull distribution |
+
+| PartFlatness: Normal vs. Nonnormal Capability Analysis
+
+This practice problem is a good illustration of why checking normality *before*
+running a capability analysis matters, using the wrong assumption doesn't just
+shift the numbers slightly, it can hide a real capability problem.
+
+## The dataset
+Deviation from Flat, measured on 122 metal parts, USL = 30 microns (no LSL, no target).
+The distribution is right-skewed (mean 7.42 > median 6.52), and a Continuous Fit /
+Fit All comparison identifies **Weibull** as the best-fitting distribution
+(lowest AICc, highest AICc weight among candidates).
+
+## Two ways to run the capability analysis
+
+**1. Normal-theory capability** (`03_partflatness_capability_normal_incorrect.png`)
+Uses the sample mean and overall standard deviation directly, assuming a
+symmetric bell-shaped distribution.
+- Ppk = 1.394
+- Expected nonconforming = 0.0015%
+
+This looks great, but it's the wrong tool for this data, since the
+distribution is confirmed nonnormal.
+
+**2. Weibull-based capability** (`03_partflatness_weibull_capability.png`)
+Uses the fitted Weibull distribution's own percentiles ("Nonnormal capability
+indices calculated with the Percentiles method," per JMP's own label on the
+output) instead of the normal formula.
+- Ppk = 0.821
+- Expected nonconforming = 0.4588% (4,588 ppm)
+
+## Why the difference is so large
+The fitted Weibull has shape parameter β ≈ 1.27 : a right tail that decays
+more slowly than a normal curve's tail would. The normal-theory calculation
+assumes the tail thins out the way a bell curve does, so it badly
+underestimates how much probability mass actually sits beyond USL = 30.
+The result: the normal-theory approach understates the true defect rate by
+roughly 300x (0.0015% vs. 0.4588%).
+
+## Takeaway
+Always check the normality assumption first (Distribution + Normal Quantile
+Plot, then Continuous Fit if it fails). If the data is nonnormal, run the
+capability analysis from the fitted distribution, not from the sample mean
+and standard deviation. The Cp/Cpk/Ppk formulas used throughout the earlier
+Thickness and Temp examples in this module are only valid because those
+datasets passed the normality check first.` | Written explanation comparing the incorrect and corrected capability approaches |
+| <img width="702" height="412" alt="03_poor_performance_decision_tree" src="https://github.com/user-attachments/assets/b8e617bc-e463-4d0f-9f29-af204f01299a" /> | Decision tree for diagnosing poor process performance across stability, centering, and variability |
