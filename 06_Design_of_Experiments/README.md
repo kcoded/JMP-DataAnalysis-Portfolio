@@ -34,7 +34,7 @@ Good experimental design requires careful planning. The ten-step DOE guideline f
 
 ## Practice Problems
 
-### 6.2 Designing a Full Factorial Experiment
+### 6.1 Designing a Full Factorial Experiment
 A 2³ full factorial design was created in JMP to study three factors: Bath Time, Percentage Solution, and Rinse Time. The design was replicated once, resulting in 16 total runs. Run order was randomized to control for lurking variables.
 
 Key questions addressed:
